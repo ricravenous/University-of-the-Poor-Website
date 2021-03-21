@@ -16,7 +16,7 @@ section.homepage-story
 section.homepage-products.products
   .container
     h2
-      | Product
+      | Journal
     .row
       //product is structured: ['filename', 'data']
       //sort by newest product
@@ -28,7 +28,7 @@ section.homepage-products.products
 section.homepage-news.news
   .container
     h2
-      | News
+      | Our Blog
     .news-items
       //get the first two most recent posts
       - blog.articles.first(2).each do | article |
