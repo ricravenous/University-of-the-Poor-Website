@@ -2,6 +2,6 @@ nav_items:
   - label: Home
     path: /
   - label: Journal
-    path: /Journal/
+    path: /Products
   - label: Readings
-    path: /Readings
+    path: /news
