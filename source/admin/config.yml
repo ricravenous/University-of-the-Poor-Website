@@ -8,11 +8,11 @@ public_folder: /images/uploads
 
 collections:
   #yaml middleman data example
-  - name: product
-    label: Product
+  - name: journal
+    label: Journal
     format: yml
     extension: yml
-    folder: data/products/
+    folder: data/journal/
     create: true
     slug: '{{title}}'
     fields:
